@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Modeka';
-  src: url(Modeka.otf);
+  src: url(Fonts/Modeka.otf);
 }
 @font-face {
   font-family: 'POLYA';
-  src: url(POLYA.otf);
+  src: url(Fonts/POLYA.otf);
 }
 * {
   transition: 1000ms;
 }
 body {
-  background: url(mountaingrey.jpg);
+  background: url(mountain.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
