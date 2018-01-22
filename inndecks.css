@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Modeka';
+  src: url(Modeka.otf);
+}
+@font-face {
+  font-family: 'POLYA';
+  src: url(POLYA.otf);
+}
+* {
+  transition: 1000ms;
+}
+body {
+  background: url(mountaingrey.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.title {
+  text-align: center;
+  margin: auto;
+  margin-top: 8%;
+  font-size: 6rem;
+  font-family: 'POLYA';
+  color: white;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+}
