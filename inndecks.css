@@ -10,7 +10,7 @@
   transition: 1000ms;
 }
 body {
-  background: url(mountain.jpg);
+  background: url(Images/mountain.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
