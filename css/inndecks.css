@@ -22,7 +22,6 @@ body {
   font-size: 6rem;
   font-family: 'POLYA';
   color: white;
-}
-.header {
-  list-style-type: none;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
 }

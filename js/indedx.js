@@ -3,7 +3,7 @@ $(document).ready( () => {
   // To make a bunch of jumbled letters
   function makeId() {
   var text = "";
-  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789     ";
 
   for (var i = 0; i < 10; i++) {
     text += possible.charAt(Math.floor(Math.random() * possible.length));
@@ -16,7 +16,7 @@ $(document).ready( () => {
 
   var randomWordArray = [];
 
-  for (var j = 0; j < 15; j++) {
+  for (var j = 0; j < 30; j++) {
     randomWordArray[j] = makeId();
   };
 
@@ -36,14 +36,9 @@ randomWordArray.forEach(function jumboWordDisplay(element, index) {
               .delay(10)
               .fadeOut(20, cycle);
 
-               if (h < 15) {
+               if (h < 30) {
                  h = ++h;
                };
 })();
-
-// Company Name Show
-
-$(".final").hide();
-$(".final").show(1100);
 
 });
