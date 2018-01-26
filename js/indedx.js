@@ -20,25 +20,33 @@ $(document).ready( () => {
     randomWordArray[j] = makeId();
   };
 
-// Output letters
-randomWordArray.forEach(function jumboWordDisplay(element, index) {
+  // Output letters
+  randomWordArray.forEach(function jumboWordDisplay(element, index) {
 
-      var dispIndex = index + 1;
-      $(".header").append("<div id='title-" + dispIndex + "' class='title'>" + element + "</div>");
-});
+        var dispIndex = index + 1;
+        $(".header").append("<div id='title-" + dispIndex + "' class='title'>" + element + "</div>");
+  });
 
 
-  var divs = $('div[id^="title-"]'),
-    h = 0;
+    var divs = $('div[id^="title-"]'),
+      h = 0;
 
-(function cycle() {
-    divs.hide().eq(h).fadeIn(20)
-              .delay(10)
-              .fadeOut(20, cycle);
+  (function cycle() {
+      divs.hide().eq(h).fadeIn(20)
+                .delay(10)
+                .fadeOut(20, cycle);
 
-               if (h < 30) {
-                 h = ++h;
-               };
-})();
+                 if (h < 30) {
+                   h = ++h;
+                 };
+  })();
 
+  // Nav Open Jquery
+     $('.open-menu').on('click', function() {
+     $('.overlay').addClass('open');
+  });
+
+  $('.close-menu').on('click', function() {
+    $('.overlay').removeClass('open');
+  });
 });
