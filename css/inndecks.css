@@ -21,15 +21,25 @@ body {
   background-size: cover;
   z-index: -1;
 }
+hr {
+  border: 2px solid white;
+  color: white;
+  animation-delay: 1.7s;
+}
+.title-content {
+  margin: 0 15vw 0 15vw;
+  width: 70vw;
+}
 .title {
+  margin-top: 8vh;
+  position: relative;
   text-align: center;
-  margin: auto;
-  margin-top: 6%;
   font-size: 6rem;
   font-family: 'POLYA';
   color: white;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2.1s;
+  text-decoration: none;
+  -webkit-animation-delay: 1.65s;
+  cursor: default;
 }
 /* Nav Set Up */
 .navbar {
@@ -40,17 +50,17 @@ body {
   align-items: center;
   padding-left: 40px;
 }
+.navbar .logo {
+  width: 40px;
+}
 .navbar-button {
-  position: relative;
   width: 80px;
   display: flex;
-  justify-content:  space-between;
-  align-items: center;
 }
 /* Overlay Set Up */
 .overlay {
   position: fixed;
-  background: black;
+  background: #a9a9a9;
   top: 0;
   left: 0;
   width: 100%;
@@ -58,8 +68,9 @@ body {
   opacity: 0;
   font-family: 'Varela Round';
   visibility: hidden;
-  transition: -webkit-opacity .35s, -webkit-visibility .35s, -webkit-height .35s;
+  transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
+  z-index: 2;
 }
 .overlay.open {
   height: 100%;
@@ -67,39 +78,47 @@ body {
   visibility: visible;
 }
 .overlay .nav-title {
-  position: absolute;
-  top: 8%;
-  left: 50%;
+  margin: 5vw 0 0 0;
   text-align: center;
-  font-size: 22px;
-  color: #fff;
-  transform: translate(-50%);
+  font-size: 2rem;
+  color: white;
 }
-.overlay .nav {
-  position: relative;
-  height: 50%;
-  top: 50%;
+.overlay .nav-menu {
   font-size: 50px;
   text-align: center;
-  transform: translateY(-50%);
 }
 .overlay ul {
-  position: relative;
-  display: inline-block;
-  margin: 0 auto;
+  margin: 10vh 30vw 0 30vw;
+  width: 40vw;
   padding: 0;
   height: 100%;
   list-style: none;
 }
 .overlay ul li {
-  position: relative;
-  display: block;
-  opacity: 0;
   margin-bottom: 50px;
+  text-align: center;
+  font-size: 3rem;
+  opacity: 1;
 }
 .overlay ul li a{
+  content: '';
+  width: 100%;
+  transition: .5s;
+}
+.overlay ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 3px solid white;
+  transition: .5s;
+}
+.overlay ul li a:hover:after {
+  width: 100%;
+}
+.overlay ul li a {
   position: relative;
-  display: block;
   color: white;
   text-decoration: none;
   overflow: hidden;
@@ -114,7 +133,7 @@ body {
   transform: translateX(-50%);
   height: 3px;
   background: white;
-  transition: .5s;
+  transition: 1s;
 }
 .overlay ul li a:hover,
 .overlay ul li a:focus,
@@ -129,7 +148,7 @@ body {
 }
 /* Special fadeIn effect */
 .overlay.open li {
-  animation: -webkit-fadeInRight .5s ease forwards;
+  animation: .7s ease-in forwards;
   animation-delay: .35s;
 }
 .overlay.open li:nth-of-type(2) {
@@ -141,6 +160,7 @@ body {
 .overlay.open li:nth-of-type(4) {
   animation-delay: .50s;
 }
+
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -164,7 +184,7 @@ button:focus {
 .open-menu:hover,
 .close-menu:hover,
 .button:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /* media queries */

@@ -1,4 +1,15 @@
 $(document).ready( () => {
+  // Underline title on load
+  $(".title").addClass("titlef");
+
+  // Nav Open Jquery
+  $(".open-menu").on("click", function() {
+    $(".overlay").addClass("open");
+  });
+
+  $(".close-menu").on("click", function() {
+    $(".overlay").removeClass("open");
+  });
 
   // To make a bunch of jumbled letters
   function makeId() {
@@ -16,7 +27,7 @@ $(document).ready( () => {
 
   var randomWordArray = [];
 
-  for (var j = 0; j < 30; j++) {
+  for (var j = 0; j < 20; j++) {
     randomWordArray[j] = makeId();
   };
 
@@ -32,21 +43,13 @@ $(document).ready( () => {
       h = 0;
 
   (function cycle() {
-      divs.hide().eq(h).fadeIn(20)
-                .delay(10)
-                .fadeOut(20, cycle);
+      divs.hide().eq(h).fadeIn(25)
+                .delay(15)
+                .fadeOut(25, cycle);
 
-                 if (h < 30) {
+                 if (h < 20) {
                    h = ++h;
                  };
   })();
 
-  // Nav Open Jquery
-     $('.open-menu').on('click', function() {
-     $('.overlay').addClass('open');
-  });
-
-  $('.close-menu').on('click', function() {
-    $('.overlay').removeClass('open');
-  });
 });
