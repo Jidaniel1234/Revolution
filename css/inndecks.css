@@ -24,11 +24,12 @@ body {
 hr {
   border: 2px solid white;
   color: white;
-  animation-delay: 1.7s;
+  animation-delay: 0.95s;
 }
 .title-content {
   margin: 0 15vw 0 15vw;
   width: 70vw;
+  transition: 0s;
 }
 .title {
   margin-top: 8vh;
@@ -38,7 +39,6 @@ hr {
   font-family: 'POLYA';
   color: white;
   text-decoration: none;
-  -webkit-animation-delay: 1.65s;
   cursor: default;
 }
 /* Nav Set Up */
@@ -136,12 +136,10 @@ hr {
   transition: 1s;
 }
 .overlay ul li a:hover,
-.overlay ul li a:focus,
 .overlay ul li a:active {
   color: #696969;
 }
 .overlay ul li a:hover:after,
-.overlay ul li a:focus:after,
 .overlay ul li a:active:after {
   width: 100%;
   background: #696969;
