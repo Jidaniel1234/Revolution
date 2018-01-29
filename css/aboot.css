@@ -3,6 +3,7 @@ body {
   background-image: url(Images/mountain2.jpg);
 }
 .title {
+  margin-top: 8vh;
   text-align: center;
   font-family: 'POLYA';
   font-size: 6rem;
