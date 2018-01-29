@@ -1,0 +1,11 @@
+body {
+  background-position: center;
+  background-image: url(Images/mountain2.jpg);
+}
+.title {
+  text-align: center;
+  font-family: 'POLYA';
+  font-size: 6rem;
+  color: white;
+  font-weight: 400;
+}
