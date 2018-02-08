@@ -8,6 +8,7 @@
 }
 * {
   box-sizing: border-box;
+  transition: 1000ms;
   overflow-x: hidden;
 }
 body {
