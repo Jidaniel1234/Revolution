@@ -10,3 +10,25 @@ body {
   color: white;
   font-weight: 400;
 }
+.about-us {
+  margin: 5vw;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  border-radius: 120px;
+  box-shadow: 0 0 5px 5px silver;
+  background-color: silver;
+}
+.ian {
+  margin-left: 10vw;
+}
+.daniel {
+  float: right;
+  margin-right: 10vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(Images/SeemsGood.png);
+}
+@media {
+  
+}

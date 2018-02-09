@@ -8,8 +8,9 @@ hr {
   animation-delay: 1s;
 }
 .front {
+  box-sizing: content-box;
   width: 100vw;
-  height: 105vh;
+  height: 100vh;
   background-image: url(Images/mountain.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,17 +41,32 @@ hr {
   display: inline-block;
   margin: 0;
   width: 100vw;
-  height: 90vh;
+  height: 110vh;
+  background-image: url(Images/particles.jpg);
 }
-.bar1-title {
-  margin: 12vh 0 0 10vw;
-  font-size: 4rem;
-  font-family: 'Open Sans';
+.bar-title {
+  margin: 7vh 0 0 10vw;
+  text-align: center;
+  font-size: 5.5rem;
+  font-family: 'POLYA';
+  font-weight: 400;
 }
-.bar1-title span {
-  font-family: 'Merriweather';
+.t1 {
+  animation-delay: 2.1s;
+}
+.t2 {
+  animation-delay: 2.9s;
+}
+.t3 {
+  animation-delay: 3.7s;
+}
+.t4 {
+  animation-delay: 4.9s;
+}
+span {
+  font-weight: bold;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .title {
+  h1 {
     font-size: 3rem;
 }

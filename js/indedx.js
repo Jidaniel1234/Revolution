@@ -56,4 +56,11 @@ $(document).ready( () => {
                  };
   })();
 
+  // Cool Particle effect - Learn Node.js first
+  /*
+  particlesJS.load('particles.js-master/particles-js', 'particles.js-master/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+
+  */
 });
