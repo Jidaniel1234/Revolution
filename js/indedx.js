@@ -16,6 +16,10 @@ $(document).ready( () => {
     $(".overlay").removeClass("open");
   });
 
+  $(".logo").on("click",   function() {
+      $("#id1").get(0).play();
+    });
+
   // To make a bunch of jumbled letters
   function makeId() {
   var text = "";
