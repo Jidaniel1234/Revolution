@@ -1,5 +1,5 @@
 body {
-
+  background-color: black;
 }
 /* Title */
 hr {
@@ -11,9 +11,11 @@ hr {
   box-sizing: content-box;
   width: 100vw;
   height: 100vh;
-  background-image: url(Images/mountain.jpg);
+  background-image: url(Images/mountain-names.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   z-index: -1;
 }
 .title-content {
@@ -41,15 +43,17 @@ hr {
   display: inline-block;
   margin: 0;
   width: 100vw;
-  height: 110vh;
+  height: 100vh;
   background-image: url(Images/particles.jpg);
+  overflow-y: hidden;
 }
 .bar-title {
-  margin: 7vh 0 0 10vw;
+  margin: 6vh 0 0 0;
   text-align: center;
-  font-size: 5.5rem;
+  font-size: 5rem;
   font-family: 'POLYA';
   font-weight: 400;
+  color: white;
 }
 .t1 {
   animation-delay: 2.1s;

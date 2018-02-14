@@ -44,7 +44,7 @@ html, body {
 /* Overlay Set Up */
 .overlay {
   position: fixed;
-  background: #a9a9a9;
+  background: black;
   top: 0;
   left: 0;
   width: 100%;
