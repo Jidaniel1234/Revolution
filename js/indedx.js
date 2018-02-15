@@ -12,13 +12,13 @@ $(document).ready( () => {
     $(".overlay").removeClass("open");
   });
 
-  $(".home").on("click", function() {
-    $(".overlay").removeClass("open");
+  $('.om').on("click", function() {
+    $(".overlay").removeClass('open');
   });
 
   $(".logo").on("click",   function() {
-      $("#id1").get(0).play();
-    });
+    $("#id1").get(0).play();
+  });
 
   // To make a bunch of jumbled letters
   function makeId() {
