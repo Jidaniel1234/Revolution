@@ -44,7 +44,7 @@ html, body {
 /* Overlay Set Up */
 .overlay {
   position: fixed;
-  background: black;
+  background: linear-gradient(to bottom right, black, rgb(80, 80, 80));
   top: 0;
   left: 0;
   width: 100%;

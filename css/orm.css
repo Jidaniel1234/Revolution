@@ -1,5 +1,14 @@
 body {
-  background: grey;
+  background-image: url(Images/mountain3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+hr {
+  border: 2px solid white;
+  margin: 0 20vw 0 20vw;
+  animation-delay: 0.5s;
 }
 .om-title {
   margin: 0 10vw 0 10vw;
@@ -11,23 +20,12 @@ body {
 }
 .om-title2 {
   margin: 5vh 25vw 0 25vw;
-  border: 5px solid white;
-  border-radius: 5px;
   padding: 15px;
   width: 50vw;
   color: white;
   text-align: center;
   font-size: 6rem;
   font-family: 'POLYA';
-  font-weight: 400;
-  overflow: hidden;
-}
-.om-title2{
-  animation: blinker 1.5s linear infinite;
-}
-@keyframes blinker {
-  50% {
-    border: 5px solid black;
-    color: black;
-  }
+  font-weight: 800;
+  overflow-y: hidden;
 }

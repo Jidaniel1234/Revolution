@@ -12,7 +12,7 @@ $(document).ready( () => {
     $(".overlay").removeClass("open");
   });
 
-  $('.om').on("click", function() {
+  $('.home').on("click", function() {
     $(".overlay").removeClass('open');
   });
 
