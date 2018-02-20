@@ -1,5 +1,5 @@
 body {
-  background-image: url(Images/mountain3.jpg);
+  background-image: url(Images/altmtn4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -19,7 +19,7 @@ hr {
   font-weight: lighter;
 }
 .om-title2 {
-  margin: 5vh 25vw 0 25vw;
+  margin: 5vh 25vw 2vh 25vw;
   padding: 15px;
   width: 50vw;
   color: white;
@@ -28,4 +28,10 @@ hr {
   font-family: 'POLYA';
   font-weight: 800;
   overflow-y: hidden;
+  animation: donker 1.25s infinite;
+}
+@keyframes donker {
+    50% {
+      color: orange;
+    }
 }
