@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test File</title>
+  <style>
+    * {
+      overflow-x: hidden;
+    }
+    .top {
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    text-align:center;
+    font-size:6em;
+    }
+
+    .bottom {
+    position: absolute;
+    left:0;
+    right:0;
+    top: 150%;
+    margin:auto;
+    text-align:center;
+    font-size:6em;
+    }
+
+    .bar-title {
+      margin: 20vh 0 0 0;
+      text-align: center;
+      font-size: 5rem;
+      font-family: monospace;
+      font-weight: 400;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="top"> 😎 </div>
+  <div class="bottom"> 😁 </div>
+  <h1 class="bar-title b1">We Seek To <span>Enlight,</span></h1> <br>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script>
+    var b1config = {
+      duration: 1000,
+      origin: 'left',
+      distance: '70vw',
+    };
+    window.sr = ScrollReveal({reset: true});
+    sr.reveal('.top', {
+      duration: 1000
+    });
+    sr.reveal('.bottom', {
+      origin: 'right',
+      distance: '300px',
+      duration: 2000
+    });
+    sr.reveal('.b1', b1config);
+  </script>
+</body>
+</html>

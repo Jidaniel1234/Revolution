@@ -9,7 +9,6 @@
 * {
   box-sizing: border-box;
   transition: 1000ms;
-  overflow-x: hidden;
 }
 body {
   background-repeat: no-repeat;
@@ -63,10 +62,12 @@ html, body {
   visibility: visible;
 }
 .overlay .nav-title {
-  margin: 5vw 0 0 0;
+  margin: 7vh 8vw 0 8vw;
+  padding-bottom: 2vw;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.8rem;
   color: white;
+  border-bottom: 5px solid white;
 }
 .overlay .nav-menu {
   font-size: 50px;
@@ -80,9 +81,9 @@ html, body {
   list-style: none;
 }
 .overlay ul li {
-  margin-bottom: 50px;
+  margin-bottom: 2rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.6rem;
   opacity: 1;
 }
 .overlay ul li a{

@@ -1,34 +1,37 @@
 body {
   background-color: black;
 }
+
 /* Title */
 hr {
   border: 2px solid white;
   color: white;
-  animation-delay: 1s;
+  animation-delay: 1.4s;
 }
 .front {
   box-sizing: content-box;
-  width: 100vw;
+  width: 98.85vw;
   height: 100vh;
   background-image: url(Images/mountain1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   z-index: -1;
 }
 .title-content {
   margin: 0 15vw 0 15vw;
   width: 70vw;
   transition: 0s;
+  max-height: 85vh;
+  overflow: hidden;
 }
 .title {
   margin-top: 8vh;
   position: relative;
   text-align: center;
   font-size: 6.25rem;
-  font-family: 'POLYA';
+  font-weight: bold;
+  font-family: 'POLYA', sans-serif;
   color: white;
   text-decoration: none;
   cursor: default;
@@ -40,12 +43,11 @@ hr {
 }
 /* Content! */
 .halfcontent-bar1 {
-  display: inline-block;
   margin: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 98.85vw;
+  min-height: 100vh;
   background-image: url(Images/particles.JPG);
-  overflow-y: hidden;
+  overflow-x: visible;
 }
 .bar-title {
   margin: 6vh 0 0 0;
@@ -54,18 +56,6 @@ hr {
   font-family: 'POLYA';
   font-weight: 400;
   color: white;
-}
-.t1 {
-  animation-delay: 2.1s;
-}
-.t2 {
-  animation-delay: 2.9s;
-}
-.t3 {
-  animation-delay: 3.7s;
-}
-.t4 {
-  animation-delay: 4.9s;
 }
 span {
   font-weight: bold;
