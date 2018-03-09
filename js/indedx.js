@@ -2,9 +2,11 @@ $(document).ready( () => {
   // Scroll Reveal Commands/Defaults
   var defaults = {
     distance: '70vw',
-    delay: 700,
-    duration: 1500,
-  }
+    delay: 100,
+    duration: 2000,
+    reset: true,
+    easing: 'ease'
+  };
   var b0config = {
     origin: 'left',
   };
@@ -12,14 +14,10 @@ $(document).ready( () => {
     origin: 'right',
   };
 
-  window.sr = ScrollReveal({
-     reset: true
-   });
+  window.sr = ScrollReveal(defaults);
 
   sr.reveal('.b0', b0config);
   sr.reveal('.b1', b1config);
-  sr.reveal('.b0', b0config);
-  sr.reveal('.b0', b0config);
 
   // Underline title on load
   $(".title-last").hide();

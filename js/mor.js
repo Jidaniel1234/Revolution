@@ -1,6 +1,10 @@
 $(document).ready(() => {
-
   // Scroll Effect
+  var defaults = {
+    delay: 900,
+    duration: 1800,
+  };
+  
 
   // Nav Open Jquery
   $(".open-menu").on("click", function() {

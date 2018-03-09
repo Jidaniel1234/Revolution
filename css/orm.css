@@ -35,3 +35,38 @@ hr {
       color: orange;
     }
 }
+/* Prelims for sections */
+.sec-title {
+  text-align: center;
+  font-size: 5.5rem;
+  font-family: 'POLYA';
+}
+/* sec 1 */
+.sec-1 {
+   margin: 55vh 0 0 0;
+   height: 100vh;
+   background-color: white;
+}
+.sec-title-1 {
+  margin: 5vh 0 0 0;
+}
+.bitcoin-logo {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  margin: 5vh 0 0 8vw;
+}
+/* Biblio */
+.sec-l {
+  background-color: grey;
+  height: 100vh;
+}
+.sec-title-l {
+  margin: 0 0 0 0;
+}
+.cit-1 {
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: 'Iceberg';
+}

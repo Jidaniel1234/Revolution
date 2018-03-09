@@ -62,12 +62,10 @@ html, body {
   visibility: visible;
 }
 .overlay .nav-title {
-  margin: 7vh 8vw 0 8vw;
-  padding-bottom: 2vw;
+  margin: 7vh 0 0 0;
   text-align: center;
   font-size: 2.8rem;
   color: white;
-  border-bottom: 5px solid white;
 }
 .overlay .nav-menu {
   font-size: 50px;
