@@ -1,6 +1,6 @@
 body {
-  background-position: center;
   background-image: url(Images/mountain2.jpg);
+  background-size: cover;
 }
 hr {
   margin: 0 20vw 4vh 20vw;
@@ -55,6 +55,8 @@ hr {
   z-index: 3;
   visibility: hidden;
   opacity: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .abt-overlay1.show {
   visibility: visible;
@@ -93,6 +95,8 @@ hr {
   z-index: 3;
   visibility: hidden;
   opacity: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .abt-overlay2.show {
   visibility: visible;

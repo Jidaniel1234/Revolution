@@ -41,14 +41,36 @@ hr {
   font-size: 5.5rem;
   font-family: 'POLYA';
 }
+.sec-info {
+  font-family: 'Iceberg';
+  text-align: center;
+  font-size: 1.75rem;
+}
+/* sec 0 */
+.sec-0 {
+  margin: 55vh 0 0 0;
+  height: 100vh;
+  background-color: white;
+}
+.sec-title-0 {
+  padding-top: 5vh;
+}
+.sec-list {
+  font-family: 'Iceberg';
+  font-size: 1.75rem;
+  margin: 0 0 0 15vh;
+}
 /* sec 1 */
 .sec-1 {
-   margin: 55vh 0 0 0;
+   margin: 0 0 0 0;
    height: 100vh;
-   background-color: white;
+   background-color: lightgrey;
 }
 .sec-title-1 {
   margin: 5vh 0 0 0;
+}
+.sec-info-1 {
+
 }
 .bitcoin-logo {
   display: inline-block;
@@ -58,11 +80,12 @@ hr {
 }
 /* Biblio */
 .sec-l {
-  background-color: grey;
+  background-color: black;
   height: 100vh;
+  color: white;
 }
 .sec-title-l {
-  margin: 0 0 0 0;
+  margin: 5vh 0 0 0;
 }
 .cit-1 {
   margin-top: 5vh;

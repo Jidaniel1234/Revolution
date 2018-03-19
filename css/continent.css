@@ -1,0 +1,26 @@
+* {
+  overflow: hidden;
+}
+body {
+  background-color: black;
+}
+.header-title {
+  margin: 5vh 10vw 0 10vw;
+  text-align: center;
+  color: white;
+  font-size: 5.5rem;
+  font-family: 'POLYA';
+  font-weight: lighter;
+}
+.list-contact {
+  margin-top: 10vh;
+  text-align: center;
+  list-style: none;
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Iceberg';
+  animation-delay: 1s;
+}
+.list-contact li {
+  margin-top: 3vh;
+}

@@ -3,7 +3,7 @@ $(document).ready( () => {
   var defaults = {
     distance: '70vw',
     delay: 100,
-    duration: 2000,
+    duration: 1000,
     reset: true,
     easing: 'ease'
   };
