@@ -18,8 +18,8 @@ hr {
   z-index: -1;
 }
 .title-content {
-  margin: 0 15vw 0 15vw;
-  width: 70vw;
+  margin: 0 5vw 0 5vw;
+  width: 90vw;
   transition: 0s;
   max-height: 85vh;
   overflow: hidden;
@@ -28,7 +28,7 @@ hr {
   margin-top: 8vh;
   position: relative;
   text-align: center;
-  font-size: 6.25rem;
+  font-size: 6rem;
   font-weight: bold;
   font-family: 'POLYA', sans-serif;
   color: white;
@@ -36,7 +36,7 @@ hr {
   cursor: default;
 }
 .scrlicon {
-  margin: 48vh 0 0 33vw;
+  margin: 48vh 0 0 43vw;
   width: 4vw;
   animation-delay: 1.8s;
 }
@@ -62,18 +62,12 @@ hr {
 span {
   font-weight: bold;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 479px) {
-  .title-last {
-    font-size: 3rem;
+@media only screen and (max-device-width : 1023) {
+  .title-content {
+    margin: 0;
+    width: 100vw;
   }
-}
-@media only screen and (min-device-width : 480px) and (max-device-width : 767px) {
-  .title-last {
-    font-size: 3rem;
-  }
-}
-@media only screen and (min-device-width : 768) and (max-device-width : 1023) {
-  .title-last {
-    font-size: 4rem;
+  .scrlicon {
+    margin: 48vh 0 0 48vw;
   }
 }

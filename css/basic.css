@@ -187,3 +187,8 @@ button:focus {
     font-size: 2.4rem;
   }
 }
+@media (max-width: 1024px) {
+  .om-title .om-title2 .title-p .title-last .cont-title .about-title {
+    font-size: 4.2rem;
+  }
+}
