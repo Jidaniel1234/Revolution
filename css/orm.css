@@ -36,6 +36,10 @@ hr {
     }
 }
 /* Prelims for sections */
+.sec {
+  margin: 0;
+  min-height: 100vh;
+}
 .sec-title {
   margin: 5vh 10vw 0 10vw;
   text-align: center;
@@ -63,15 +67,14 @@ hr {
 }
 /* sec 1 */
 .sec-1 {
-   margin: 0 0 0 0;
-   height: 100vh;
-   background-color: lightgrey;
+  margin: 0;
+  height: 100vh;
+  background-color: lightgrey;
 }
 .sec-title-1 {
   margin: 5vh 0 0 0;
 }
 .sec-info-1 {
-
 }
 .bitcoin-logo {
   display: inline-block;
@@ -81,11 +84,19 @@ hr {
 }
 /* sec 2 */
 .sec-2 {
-  margin: 0;
-  min-height: 100vh;
   background-color: darkgrey;
 }
-
+/* sec 3 */
+.sec-3 {
+  background-color: grey;
+}
+/* sec-4 */
+.sec-4 {
+  background-color: dimgray;
+}
+.sec-title-4 {
+  font-size: 3.5rem;
+}
 /* Biblio */
 .sec-l {
   background-color: black;
@@ -96,8 +107,11 @@ hr {
   margin: 5vh 0 0 0;
 }
 .cit-1 {
-  margin-top: 5vh;
-  text-align: center;
+  margin: 5vh 5vw 0 5vw;
   font-size: 1.75rem;
   font-family: 'Iceberg';
+  list-style-type: none;
+}
+.cit-1 li {
+  margin-top: 3vh;
 }
