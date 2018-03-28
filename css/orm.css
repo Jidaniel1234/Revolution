@@ -50,6 +50,7 @@ hr {
   font-family: 'Iceberg';
   text-align: center;
   font-size: 1.75rem;
+  margin: 5vh 5vw 0 5vw;
 }
 /* sec 0 */
 .sec-0 {
@@ -81,6 +82,12 @@ hr {
   height: 300px;
   width: 300px;
   margin: 5vh 0 0 8vw;
+}
+/* sec 1.5 */
+.sec-1p5 {
+  margin: 0;
+  background-color: silver;
+  height: 100vh;
 }
 /* sec 2 */
 .sec-2 {
