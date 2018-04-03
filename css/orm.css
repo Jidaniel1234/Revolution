@@ -76,6 +76,8 @@ hr {
   margin: 5vh 0 0 0;
 }
 .sec-info-1 {
+  text-align: left;
+  line-height: 2rem;
 }
 .bitcoin-logo {
   display: inline-block;
@@ -91,11 +93,11 @@ hr {
 }
 /* sec 2 */
 .sec-2 {
-  background-color: darkgrey;
+  background-color: grey;
 }
 /* sec 3 */
 .sec-3 {
-  background-color: grey;
+  background-color: darkgrey;
 }
 /* sec-4 */
 .sec-4 {
