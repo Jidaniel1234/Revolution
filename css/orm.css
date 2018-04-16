@@ -133,7 +133,7 @@ hr {
   background-color: #212121;
 }
 .sec-title-I {
-  color: white; 
+  color: white;
 }
 /* Biblio */
 .sec-l {
@@ -149,6 +149,9 @@ hr {
   font-size: 1.25rem;
   font-family: 'Iceberg';
   list-style-type: none;
+}
+.cit-1 a {
+  color: white;
 }
 .cit-1 li {
   margin-top: 3vh;
