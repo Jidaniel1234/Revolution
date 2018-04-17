@@ -1,5 +1,9 @@
 body {
-  background-color: black;
+  background-image: url(Images/mountain1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
 /* Title */
 hr {
@@ -11,11 +15,6 @@ hr {
   box-sizing: content-box;
   width: 98.85vw;
   height: 100vh;
-  background-image: url(Images/mountain1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
 }
 .title-content {
   margin: 0 5vw 0 5vw;

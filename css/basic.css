@@ -188,11 +188,11 @@ button:focus {
   }
 }
 @media screen and (max-width: 1024px) {
-  .om-title .om-title2 .title-p .title-last .cont-title .about-title {
+  h1 .title {
     font-size: 4.2rem;
   }
 }
-@media screen and (max-height: 728px) {
+@media screen and (max-width: 700px) {
   .overlay ul li {
     font-size: 2rem;
   }

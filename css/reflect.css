@@ -1,7 +1,32 @@
 body {
-  background-color: black; /* change later */
+  background-image: url(Images/sisterWatercolor.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
+}
+hr {
+  border: 2px solid white;
+  margin: 1vh 13vw 0 13vw;
+  animation-delay: 0.5s;
+}
+.refl-title {
+  margin: 5vh 10vw 0 10vw;
+  color: white;
+  font-size: 5.5rem;
+  font-family: 'POLYA';
+  text-align: center;
+}
+.content {
+  margin: 20vh 10vw 15vh 10vw;
+  color: white;
+  text-align: center;
+  font-family: 'Iceberg';
+}
+.content h2 {
+  font-size: 2.4rem;
+  font-family: ;
+}
+.content p {
+  font-size: 1.2rem;
 }
