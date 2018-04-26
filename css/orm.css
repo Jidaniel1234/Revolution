@@ -128,16 +128,9 @@ hr {
 .sec-info-5 {
   color: white;
 }
-/*Info*/
-.sec-I {
-  background-color: #212121;
-}
-.sec-title-I {
-  color: white;
-}
 /* Biblio */
 .sec-l {
-  background-color: black;
+  background-color: #212121;
   min-height: 100vh;
   color: white;
 }
@@ -155,4 +148,26 @@ hr {
 }
 .cit-1 li {
   margin-top: 3vh;
+}
+/* Back */
+.back {
+  position: fixed;
+  background-color: white;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 5px;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+  height: 35px;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 2;
+}
+.back:hover {
+  filter: invert(1);
+  transition: .2s;
+}
+.back.show {
+  opacity: 1;
 }

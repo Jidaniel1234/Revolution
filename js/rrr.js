@@ -4,6 +4,8 @@ $(document).ready(() => {
     delay: 900,
     duration: 1800,
   };
+  $('.datab').hide();
+  $('.dataa').hide();
 
   // Nav Open Jquery
   $(".open-menu").on("click", function() {
@@ -18,8 +20,15 @@ $(document).ready(() => {
     $(".overlay").removeClass("open");
   });
 
-  $(".logo").on("click",   function() {
+  $(".logo").on("click", function() {
     $("#id1").get(0).play();
+  });
+
+  $('.ddub').on('click', function(event) {
+       $('.datab').toggle('show');
+  });
+  $('.ddua').on('click', function(event) {
+       $('.dataa').toggle('show');
   });
 
 });

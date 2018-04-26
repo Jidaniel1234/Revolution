@@ -17,10 +17,6 @@ hr {
   color: white;
   font-weight: 400;
 }
-.onScroll1 {
-  background-color: grey;
-  position: fixed;
-}
 .about-us {
   margin: 5vw;
   display: inline-block;
@@ -50,7 +46,7 @@ hr {
   width: 100vw;
   height: 100vh;
   background: black;
-  font-family: "Varela Round";
+  font-family: "Iceberg";
   color: white;
   z-index: 3;
   visibility: hidden;
@@ -90,7 +86,7 @@ hr {
   width: 100vw;
   height: 100vh;
   background: black;
-  font-family: "Varela Round";
+  font-family: "Iceberg";
   color: white;
   z-index: 3;
   visibility: hidden;

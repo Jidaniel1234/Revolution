@@ -18,7 +18,7 @@ hr {
   text-align: center;
 }
 .content {
-  margin: 20vh 10vw 15vh 10vw;
+  margin: 15vh 10vw 15vh 10vw;
   color: white;
   text-align: center;
   font-family: 'Iceberg';
@@ -29,4 +29,17 @@ hr {
 }
 .content p {
   font-size: 1.2rem;
+}
+.data {
+  text-align: left;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+/* Arrow stuff */
+.ddua {
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+.ddub {
+  cursor: pointer;
+  transform: rotate(180deg);
 }

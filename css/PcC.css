@@ -1,9 +1,12 @@
 body {
   background-image: url(Images/sesseeds.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
   overflow-x: hidden;
 }
 .pcollage-title {
-  margin: 0 25vw 0 25vw;
+  margin: 0 25vw 10vh 25vw;
   border: 5px solid silver;
   border-radius: 15px;
   width: 50vw;
@@ -16,19 +19,26 @@ body {
   font-weight: 400;
 }
 .top {
-position: absolute;
-left:0;
-right:0;
-margin:auto;
-text-align:center;
-font-size:6em;
-}
+  position: absolute;
+  left:0;
+  right:0;
+  margin:auto;
+  text-align:center;
+  font-size:6em;
+  }
 .bottom {
-position: absolute;
-left:0;
-right:0;
-top: 150%;
-margin:auto;
-text-align:center;
-font-size:6em;
+  position: absolute;
+  left:0;
+  right:0;
+  top: 150%;
+  margin:auto;
+  text-align:center;
+  font-size:6em;
+}
+/* Images */
+.img {
+  margin: 0 25vw 10vh 25vw;
+  border: 10px solid black;
+  border-radius: 30px;
+  width: 50vw;
 }
