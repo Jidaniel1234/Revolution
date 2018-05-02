@@ -38,6 +38,9 @@ hr {
 /* Ian info */
 .ian {
   margin-left: 10vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(Images/Ipfp.png);
 }
 .abt-overlay1 {
   position: fixed;
