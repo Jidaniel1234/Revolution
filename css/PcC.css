@@ -7,12 +7,12 @@ body {
 }
 .pcollage-title {
   margin: 0 25vw 10vh 25vw;
-  border: 5px solid silver;
+  border: 5px solid white;
   border-radius: 15px;
   width: 50vw;
   padding: 5px;
-  background-color: silver;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: center;
   font-family: 'POLYA';
   font-size: 6.25rem;
@@ -41,4 +41,11 @@ body {
   border: 10px solid black;
   border-radius: 30px;
   width: 50vw;
+}
+.link {
+  margin-bottom: 10vh;
+  font-size: 1.5rem;
+  font-family: 'Iceberg';
+  color: white;
+  text-align: center;
 }
