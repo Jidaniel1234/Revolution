@@ -37,6 +37,7 @@ $(document).ready( () => {
   });
 
   $(".logo").on("click",   function() {
+    alert('HAPPY BIRTHDAY JASON!');
     $("#id1").get(0).play();
   });
 
