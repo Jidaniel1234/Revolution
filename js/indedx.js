@@ -1,23 +1,22 @@
 $(document).ready( () => {
   // Scroll Reveal Commands/Defaults
-  var defaults = {
-    distance: '70vw',
+
+  ScrollReveal().reveal('.b0', {
+    origin: 'right',
+    distance: '70%',
     delay: 100,
     duration: 1000,
     reset: true,
     easing: 'ease'
-  };
-  var b0config = {
+  });
+  ScrollReveal().reveal('.b1', {
     origin: 'left',
-  };
-  var b1config = {
-    origin: 'right',
-  };
-
-  window.sr = ScrollReveal(defaults);
-
-  sr.reveal('.b0', b0config);
-  sr.reveal('.b1', b1config);
+    distance: '70%',
+    delay: 100,
+    duration: 1000,
+    reset: true,
+    easing: 'ease'
+  });
 
   // Underline title on load
   $(".title-last").hide();
@@ -37,7 +36,6 @@ $(document).ready( () => {
   });
 
   $(".logo").on("click",   function() {
-    alert('HAPPY BIRTHDAY JASON!');
     $("#id1").get(0).play();
   });
 
@@ -86,6 +84,5 @@ $(document).ready( () => {
   particlesJS.load('particles.js-master/particles-js', 'particles.js-master/particles.json', function() {
     console.log('callback - particles.js config loaded');
   });
-
   */
 });

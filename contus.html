@@ -40,15 +40,35 @@
       </nav>
     </div>
 
-    <div class="hint--bottom" aria-label="Hello!">
-      <h1 class="cont-title animated fadeInDownBig">Confused? Let's Talk!</h1>
-    </div>
+    <h1 class="cont-title animated fadeInDownBig">Confused? Let's Talk!</h1>
 
     <ul class="list-contact animated jackInTheBox">
-      <li>Email: feelsbtcman@gmail.com</li>
-      <li>Instagram: @feelsjijiman</li>
-      <li>Twitter: @Feelsjijiman</li>
+      <li>Instas: @feelsjijiman, @ianlin.510</li><br>
     </ul>
+
+    <div class="contact">
+      <form>
+        <p>Name</p><br>
+        <input class="half" type="text" name="firstname" placeholder="First Name">
+        <input class="half" type="text" name="lastname" placeholder="Last Name"><br>
+
+        <p>Type of Party:</p><br>
+        <input class="fill" id="1" type="radio" name="party" value="Personal">
+        <label for="1"><p class="fol">Individual</p></label><br>
+        <input class="fill" id="2" type="radio" name="party" value="Organization">
+        <label for="2"><p class="fol">Organization</p></label>
+
+        <p>Email</p><br>
+        <input type="email" name="email" placeholder="Email"><br>
+        <p>Message</p><br>
+        <input type="text" name="tom" placeholder="Title">
+        <textarea class="big" name="message" placeholder="Message"></textarea>
+        <br>
+
+        <input class="half click" type="submit" value="Send Message">
+        <input class="half click" type="reset">
+      </form>
+    </div>
 
     <!-- Angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>

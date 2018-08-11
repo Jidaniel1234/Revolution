@@ -40,13 +40,13 @@ hr {
 /* Arrow stuff */
 .ddua {
   cursor: pointer;
-  transform: rotate(180deg);
 }
 .ddub {
   cursor: pointer;
-  transform: rotate(180deg);
 }
 .dduc {
  cursor: pointer;
- transform: rotate(180deg);
+}
+.rotated {
+  transform: rotate(180deg);
 }

@@ -26,13 +26,16 @@ $(document).ready(() => {
   // arrows
   $('.ddub').on('click', function(event) {
        $('.datab').toggle('show');
+       $('.ddub').toggle('.rotated');
   });
 
   $('.ddua').on('click', function(event) {
        $('.dataa').toggle('show');
+       $('.ddua').toggle('.rotated');
   });
 
   $('.dduc').on('click', function(event) {
-    $('.datac').toggle('show');
+      $('.datac').toggle('show');
+      $('.dduc').toggle('.rotated');
   })
 });
